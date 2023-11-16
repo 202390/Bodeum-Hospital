@@ -1,0 +1,187 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2? family=Noto Sans KR:wght@300;400;500;700;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal /* 기본 400 */
+}
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+*{margin: 0; padding: 0;}
+a{color: inherit; text-decoration: none;}
+ul{list-style: none;}
+img {vertical-align: middle;}
+
+html{
+    font-family: 'Pretendard-Regular';
+    position: relative;
+}
+header{
+}
+header .banner{
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+header .banner .bnWrap{
+    position: relative;
+}
+.hwrap{
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    padding: 0 38px 0 36px;
+    position: relative;
+}
+.hwrap h1{
+    margin-top: 35px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(80, 80, 80, 0.3);
+}
+h1 img{
+    width:170px;
+}
+.gnb{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+    margin-top: 13px;
+}
+.gnb li{
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    width: 120px;
+    text-align: center;
+}
+.active{
+    color: #667302;
+    font-weight: bold;
+}
+.sub_menu{
+    padding: 80px 0 88px;
+    background-color:#ffffff97;
+    display: none;
+    position: absolute;
+    top:110px;
+    left: 0;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    z-index: 100;
+}
+
+.sub_menu li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 700;
+    color: #6d6d6d;
+    width: 160px;
+}
+.sub_menu li:hover{
+    color: #383a3a;
+}
+.product{
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+.product li{
+    font-weight: 100;
+}
+.util{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right:34px;
+
+    font-weight:600;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+    color: #6f5e52;
+    line-height: 32px;
+}
+.util li:first-child img{
+    width: 21px;
+    margin-right: 4px;
+}
+.util li:last-child img{
+    width: 23px;
+    margin-right: 4px;
+}
+.util li{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 1.3s;
+}
+.util li:hover{
+    color: #3c3325;
+    text-decoration: underline;
+}
+/* main */
+main{
+    position: relative;
+    height: 320px;
+}
+/* 애니메이션 */
+main .mainBn{
+    margin-top: 20px;
+    background-image: url(../../img/main.jpg);
+    height: 270px;
+    width: 100%;
+    background-position:center 70%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.maintxt{
+    border: 1px solid red;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.maintxt h2{
+    font-size: 34px;
+    padding-top: 150px;
+    font-weight: 600;
+}
+.maintxt p{
+    padding-top: 25px;
+    line-height: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.maintxt i{}
+.maintxt i img{
+    width: 24px;
+}
+
+/* sub1 */
+.sub1{
+    font-family: 'Glory';
+    color: #383a3a;
+    font-weight: 100;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub1 p{
+    font-family: 'Glory';
+    font-weight: 700;
+    color: #667302;
+}
+.map{
+    border: 1px solid rgba(80, 80, 80, 0.3);
+    padding-top: 40px;
+}
